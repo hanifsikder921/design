@@ -2,7 +2,7 @@
     --first_color: #1A1E27;
     --second_color: #01D8E6;
     --border_color:#1c1e23;
-    --shadow_color:#be05e2;
+    --shadow_color:#bd33d8;
 }
 
 * {
@@ -43,6 +43,10 @@ body {
     color: white;
     font-weight: 500;
     font-size: 18px;
+}
+.main .nav .logo span:hover{
+   color: var(--second_color);
+   cursor: pointer;
 }
 .main .nav .menu ul{
     list-style-type: none;
